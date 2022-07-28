@@ -29,9 +29,22 @@ const userQues = () => {
       },
     },
     {
+      type: "confirm",
+      name: "confirmAbout",
+      message: 'Would you like to enter info for the "Bio" section?',
+      default: true,
+    },
+    {
       type: "input",
       name: "Bio",
       message: "Provide some information about yourself.",
+      when: ({ confirmAbout }) => {
+        if (confirmAbout) {
+          return true;
+        } else {
+          return false;
+        }
+      },
     },
   ]);
 };
