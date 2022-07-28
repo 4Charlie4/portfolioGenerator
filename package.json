@@ -1,0 +1,22 @@
+{
+  "name": "portfoliogenerator",
+  "version": "1.0.0",
+  "description": "Github Portfolio Generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4Charlie4/portfolioGenerator.git"
+  },
+  "author": "Charles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4Charlie4/portfolioGenerator/issues"
+  },
+  "homepage": "https://github.com/4Charlie4/portfolioGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
